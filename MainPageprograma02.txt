@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.MainPage">
+    
+
+    <StackLayout>
+        
+            <Frame BackgroundColor="SkyBlue" Padding="24" CornerRadius="0">
+                <Label Text="Apuesto a que puedo adivinar en que dia y en que mes naciste" HorizontalTextAlignment="Center" TextColor="Black" FontSize="30"/>
+            </Frame>
+            <Frame BackgroundColor="GreenYellow" Padding="24" CornerRadius="0" >
+                <Label Text="Anote o piensa en tu dia de nacimiento"  HorizontalTextAlignment="Center" TextColor="Black" FontSize="15"/>
+            </Frame>
+            <Frame BackgroundColor="GreenYellow" Padding="24" CornerRadius="0">
+                <Label Text="Ese dia multiplicalo por 20"  HorizontalTextAlignment="Center" TextColor="Black" FontSize="15"/>
+            </Frame>
+            <Frame BackgroundColor="GreenYellow" Padding="24" CornerRadius="0">
+                <Label Text="A tu resultado sumale 73"  HorizontalTextAlignment="Center" TextColor="Black" FontSize="15"/>
+            </Frame>
+            <Frame BackgroundColor="GreenYellow" Padding="24" CornerRadius="0">
+                <Label Text="Tu resultado Multiplicalo por 5"  HorizontalTextAlignment="Center" TextColor="Black" FontSize="15"/>
+            </Frame>
+            <Frame BackgroundColor="GreenYellow" Padding="24" CornerRadius="0">
+                <Label Text="Sumale el numero de tu mes de cumpleaños"  HorizontalTextAlignment="Center" TextColor="Black" FontSize="15"/>
+            </Frame>
+            <Entry Placeholder="Ingresa aca tu resultado " PlaceholderColor="Black" BackgroundColor="WhiteSmoke"  x:Name="res" TextColor="Black" />
+            <Button Text="Presiona aqui y quedaras sorprendido " BackgroundColor="White" TextColor="black" FontSize="20" Clicked="Button_Clicked" BorderColor="LightBlue" BorderWidth="4"/>
+        
+    </StackLayout>
+
+</ContentPage>

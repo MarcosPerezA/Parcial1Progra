@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+    
+
+    <StackLayout>
+        <Frame BackgroundColor="Black" Padding="24" CornerRadius="0">
+            <Label Text="Dejame leer tu mente, Puedo adivinar el numero en el que estas pensando" HorizontalTextAlignment="Center" TextColor="White" FontSize="28"/>
+        </Frame>
+        <Frame BackgroundColor="Yellow" Padding="24" CornerRadius="0">
+            <Label Text="Piensa en un numero cualquiera" HorizontalTextAlignment="Start" TextColor="Black" FontSize="Medium"/>
+        </Frame>
+        <Frame BackgroundColor="LightBlue" Padding="24" CornerRadius="0">
+            <Label Text="Ahora multiplica ese mismo numero por 2" HorizontalTextAlignment="Start" TextColor="Black" FontSize="Medium"/>
+        </Frame>
+        <Frame BackgroundColor="LightPink" Padding="24" CornerRadius="0">
+            <Label Text="a tu resultado sumale 8" HorizontalTextAlignment="Start" TextColor="Black" FontSize="Medium"/>
+        </Frame>
+        <Frame BackgroundColor="LightSeaGreen" Padding="24" CornerRadius="0">
+            <Label Text="Tu resultado multiplicalo por 5" HorizontalTextAlignment="Start" TextColor="Black" FontSize="Medium"/>
+        </Frame>
+        <Frame BackgroundColor="LightGray" Padding="24" CornerRadius="0">
+            <Label Text="Dime cual es tu Resultado Total" HorizontalTextAlignment="Start" TextColor="Black" FontSize="Medium"/>
+        </Frame>
+        
+        <Entry Placeholder="Ingrese el resultado" x:Name="num" BackgroundColor="LightYellow" TextColor="Black"/>
+        <Button x:Name ="Button" Text="PRESIONA ESTE BOTON Y ADIVINARE TU NUMERO" Clicked="Button_Clicked" HorizontalOptions="Center" BackgroundColor="DarkOrange"  />
+        
+
+
+    </StackLayout>
+
+</ContentPage>
